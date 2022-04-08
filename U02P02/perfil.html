@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2 #6</title>
+</head>
+<body>
+    <h1>Perfil de Estudiante</h1>
+    <form action="Información personal"> 
+        <input type="text" value="ESTUDIANTE" readonly>
+        <br>
+        <label for="nombre " >Nombre completo:</label>
+        <input type="text" >
+        <br>
+        <label for="mail">Mail:</label>
+        <input type="mail" value="ejemplo@gmial.com">
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" min="18">
+        <br>
+        <label for="Nacionalidad">Nacionalidad:</label>
+        <select name="nacionalidad" id="">
+            <option value="arg">Argentina</option>
+            <option value="pr">Paraguay</option>
+            <option value="br">Brasil</option>
+            <option value="col">Colombia</option>
+            <option value="ch">Chile</option>
+            <option value="ven">Venezuela</option>
+            <option value="ecu">Ecuador</option>
+            <option value="ur">Uruguay</option>
+            <option value="peru">Peru</option>
+        </select>
+        <br>
+        <label for="trabajo">Trabajo:</label>
+        <select name="trabajo" id="">
+            <option value="des">Desempleado</option>
+            <option value="busq">En busqueda laboral</option>
+            <option value="part time">Trabajo part time</option>
+            <option value="full time">Trabajo full time</option>
+        </select>
+        <section>
+            <h4>Gustos personales</h4>
+            <label for="musica">Gustos musicales:</label>
+            <input type="text">
+            <br>
+            <label for="comida">Comida preferida:</label>
+            <select name="comida" id="">
+                <option value="asd">Asado</option>
+                <option value="past">Pasta con salsa</option>
+                <option value="ens">Ensalada</option>
+                <option value="sushi">Sushi</option>
+                <option value="gui">Guiso</option>
+            </select>
+        </section>
+        <br>
+        <label for="recordar">Recordar los datos ingresados:</label>
+        <input type="checkbox">
+        <br>
+        <br>
+        <input type="submit" name="Enviar">
+    </form>
+</body>
+</html>
