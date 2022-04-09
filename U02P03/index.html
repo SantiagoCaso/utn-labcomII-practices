@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 3 </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #aaaaaa;
+        }
+
+        div.container {
+            overflow: auto;
+        }
+
+        header {
+            background-color: #e5e5e5;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+
+        nav ul {
+            padding-left: 0px;
+        }
+
+        nav li {
+            list-style: none;
+        }
+
+        nav li a {
+            background-color: #e5e5e5;
+            padding: 8px;
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+            color: black;
+            font-weight: 700;
+        }
+
+        main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+        }
+
+        .right {
+            background-color: #e5e5e5;
+            float: left;
+            width: 20%;
+            padding: 15px;
+            margin-top: 7px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #e5e5e5;
+            text-align: center;
+            padding: 10px;
+            margin-top: 7px;
+        }
+
+        /* For mobile phones: */
+        @media only screen and (max-width: 620px) {
+
+            nav,
+            main,
+            .right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+</body>
+<!--Encabezado-->
+<header>
+    <h1>Titulo Principal de Página</h1>
+    <!-- Texto agragado del hesder-->
+    <p>Esta sera nuestra pagina de la Práctica 3</p>
+</header>
+<div class="container">
+    <!--Navegación izquierda-->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="contaco.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <!--Contenedor principal -->
+    <main>
+        <section>
+            <h2>Información adicional</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi aliquam labore voluptas, beatae sit maiores corporis minima,
+                praesentium repudiandae saepe facilis, fugiat suscipit!
+                Temporibus ipsam illum delectus unde laboriosam facilis?</p>
+        </section>
+        <div>
+            <h4>Noticias:</h4>
+            <ul>
+                <li>Noticia 1: Las nuevas tecnologias</li>
+                <li>Noticia 2: Inflación país</li>
+                <li>Noticia 3: Deportes</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Servicios:</h4>
+                <ul>
+                    <li>Servicio 1: Masajes</li>
+                    <li>Servicio 2: Reparaciones</li>
+                    <li>Servicio 3: Tutorias</li>
+                </ul>
+        </div>
+    </main>
+    <!--Contenedor segundario derecho S.C-->
+    <div class=" right">
+        <h2>Información de contenedor secundario derecho</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+            explicabo.
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+    </div>
+</div>
+<!-- Pie de la pagina S.c-->
+<footer>
+    <p>© copyright labcomII.com</p>
+    <!--Texto agregado -->
+    <p>Developer: Santiago Caso</p>
+</footer>
+</body>
+
+</html>
