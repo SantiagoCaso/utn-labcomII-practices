@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/indexstyle.css">
+    <title>Práctica 3 </title>
 </head>
+
 <body>
-    
 </body>
+<!--Encabezado-->
+<header>
+    <h1>Titulo Principal de Página</h1>
+    <!-- Texto agragado del hesder-->
+    <p>Esta sera nuestra pagina de la Práctica 3</p>
+</header>
+<div class="container">
+    <!--Navegación izquierda-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <!--Contenedor principal -->
+    <main>
+     <form action="formulario_contacto">
+        <table>
+            <caption><h2>Formulario de contacto</h2></caption>
+            <br>
+            <tr>
+                <th><label for="nombre" aria-required="true">Nombre:</label></th>
+                <th><input type="text"></th>
+            </tr>
+            <tr>
+                <th><label for="email">Email:</label></th>
+                <th><input type="email"></th>
+            </tr>
+            <tr>
+                <th><label for="edad">Edad:</label></th>
+                <th><input type="number" min="1" ></th>
+            </tr>
+            <tr>
+                <th><label for="color_pref">Color preferido:</label></th>
+                <th><input type="color"></th>
+            </tr>
+            <tr>
+                <th><label for="comentario">Comentario:</label></th>
+                <th><textarea min: 10 rows="3" >
+
+                     </textarea></th>
+            </tr>
+            <tr>
+                <th><Label>ENVIAR</Label></th>
+                <th><input type="submit" name="ENVIAR"></th>
+            </tr>
+        </table>
+     </form>
+    </main>
+    <!--Contenedor segundario derecho S.C-->
+    <div class=" right">
+        <h2>Información de contenedor secundario derecho</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+            explicabo.
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+    </div>
+</div>
+<!-- Pie de la pagina S.c-->
+<footer>
+    <p>© copyright labcomII.com</p>
+    <!--Texto agregado -->
+    <p>Developer: Santiago Caso</p>
+</footer>
+</body>
+
 </html>
